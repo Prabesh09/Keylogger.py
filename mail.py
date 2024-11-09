@@ -7,15 +7,15 @@ from email import encoders
 import time
 
 # Email configuration
-sender_email = 'tt0071615@gmail.com'
-sender_password = 'lqwdokwnilsjztfu'
-receiver_email = 'vomosap559@ipniel.com'
+sender_email = 'sender@gmail.com'
+sender_password = 'P@$$w0rd'
+receiver_email = 'receiver@ipniel.com'
 subject = 'Email with Attachment'
 body = 'Please find the attached file.'
 
 # File to be attached
 attachment_filename = 'log.txt'
-attachment_location = 'C:/Users/Acer/PycharmProjects/finalyearproject/log.txt'
+attachment_location = 'C:/........../log.txt'
 
 while True:
     # Create a MIME object to represent the email
